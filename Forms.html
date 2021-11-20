@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+      <title>Form Demo</title>
+  </head> 
+  <body>
+      <h1>Log in</h1>
+      <input type="text">
+      <input type="drop down">
+      <input type="date">
+      <input type="password">
+      <input type="checkbox">
+      <button>submit</button>
+      <input type="submit">
+ </body>  
+ </html>
+
+ <!-- <Form action="http://wikipedia.org" method="GET">
+     <h1>Login</h1>
+     <label>Username:<input name="usename" type="text" placeholder="username">
+    </label>
+     <label>
+         password:<input name="password" type="password" placeholder="password">
+     </label>
+     
+     <input type="submit">
+
+
+
+ </Form> -->
+
+ <Form action="http://wikipedia.org" method="GET">
+    <h1>Login</h1>
+    <label for="username">Email:</label>
+    <input id="username" name="usename" type="email" placeholder="Email" required>
+    <label for="password">password:</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+    <p>whats your favorite pet</p>
+    <label for="cats">cats:</label>
+    <input name="petchoice" id="cats" type="radio">
+    <label for="dogs">dogs:</label>
+    <input name="petchoice"id="dogs" type="radio">
+    <input type="submit">
+    <button>Go!</button>
+    <p>whats your favorite color</p>
+    <select name="color">
+        <option>select</option>
+        <option>yellow</option>
+        <option>red</option>
+        <option>purple</option>
+    </select>
+    <p>write a paragraph about your pet</p>
+    <textarea name="paragraoh" rows="10"  cols="50"></textarea>
+
+ 
+
+
+</Form>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>Forms</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="First name">First Name:</label>
+        <input name="name1" id="First Name" name="username" type="text" placeholder="John" required>
+        <label for="Last name">Last Name:</label>
+        <input name="name2"id="Last Name" name="username" type="text" placeholder="Smith"required>
+        <p>
+            <label for="Male">Male:</label>
+            <input name="Gender"id="Male" type="radio">
+            <label for="Female">Female:</label>
+            <input name="Gender"id="Female" type="radio">
+            <label for="Other">Other:</label>
+            <input name="Gender"id="Other" type="radio"></p>
+        <p>
+            <label for="Email">Email:</label>
+            <input name="Email"id="Email" type="text" placeholder="your email" reqiured>
+            <label for="Password">password:</label>
+            <input name="password"id="password" type="password" pattern=".{5,10}" required title="password must be between 5 to 10 characters"></p>
+        <p>
+            <label>
+                Birthday:
+                <select>
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                </select>
+                <select>
+                    <option>Day</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                </select>
+                <select>
+                    <option>Year</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+
+                </select>
+     </label>
+           
+
+        </p>
+        <p>I agree to the terms and conditions
+            <input type="checkbox" required>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>

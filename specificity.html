@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Specificity</title>
+        <style type="text/css">
+            body{
+                color: purple;
+                background-color: red;
+            }
+            p{
+                color: blue;
+            }
+            ul{
+                color: green;
+            }
+            li{
+                color: black;
+            }
+            .highlight{
+                color: yellow;
+            }
+            #special{
+                color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello!</p>
+        <ul>
+            <li id="special"class="highlight">John</li>
+            <li class="highlight">Paul</li>
+            <li>James</li>
+            <li>Ringo</li>
+
+        </ul>
+    </body>
+</html>
